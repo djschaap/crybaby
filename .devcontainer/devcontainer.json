@@ -1,0 +1,23 @@
+{
+	"name": "crybaby",
+	"image": "mcr.microsoft.com/devcontainers/go:1-1.21-bookworm",
+	"customizations": {
+		"codespaces": {
+			"extensions": [
+				"davidanson.vscode-markdownlint",
+				"golang.go",
+				"ms-azuretools.vscode-docker"
+			]
+		},
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"davidanson.vscode-markdownlint",
+				"golang.go",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"containerUser": "vscode",
+	"updateRemoteUserUID": true
+}
